@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cig.Etl.Evergage.Runner", "src\Cig.Etl.Evergage.Runner\Cig.Etl.Evergage.Runner.csproj", "{4C6D87E6-99E2-4782-8526-1860193F6640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cig.Etl.Evergage", "src\Cig.Etl.Evergage\Cig.Etl.Evergage.csproj", "{B7164741-82E0-46C4-8738-B308B5BD7B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cig.Etl.Shared", "src\Cig.Etl.Shared\Cig.Etl.Shared.csproj", "{BAB1C1E5-2498-4B5D-88F4-9D844F03EAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cig.Evergage.Client", "src\Cig.Evergage.Client\Cig.Evergage.Client.csproj", "{198649C0-4A49-4CD2-B758-77891643763F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFD1BE98-C19B-4ABD-AF1A-AD4305BD4880}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.mario.yml = .mario.yml
+		Jenkinsfile = Jenkinsfile
+		SqlObjects.sql = SqlObjects.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6D87E6-99E2-4782-8526-1860193F6640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6D87E6-99E2-4782-8526-1860193F6640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6D87E6-99E2-4782-8526-1860193F6640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6D87E6-99E2-4782-8526-1860193F6640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7164741-82E0-46C4-8738-B308B5BD7B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7164741-82E0-46C4-8738-B308B5BD7B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7164741-82E0-46C4-8738-B308B5BD7B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7164741-82E0-46C4-8738-B308B5BD7B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB1C1E5-2498-4B5D-88F4-9D844F03EAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB1C1E5-2498-4B5D-88F4-9D844F03EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB1C1E5-2498-4B5D-88F4-9D844F03EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB1C1E5-2498-4B5D-88F4-9D844F03EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198649C0-4A49-4CD2-B758-77891643763F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198649C0-4A49-4CD2-B758-77891643763F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198649C0-4A49-4CD2-B758-77891643763F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198649C0-4A49-4CD2-B758-77891643763F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F655DEFD-992C-412E-AE54-2E726ED7A430}
+	EndGlobalSection
+EndGlobal

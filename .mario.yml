@@ -1,0 +1,19 @@
+
+Solution: Etl.Evergage.sln
+Pipeline: dotnetcore
+ProGetFeeds:
+  - cig-nuget
+SonarQubeProject:
+  Name: Exact Etl Evergage
+  Key: exact-online-etl-evergage
+PublishSettings:
+    Choco:
+      Name: exact-etl-evergage
+      Summary: Exact Etl Evergage
+      Description: Exact Etl Evergage
+      ProjectUrl: https://github.exactsoftware.com/cloud-solutions/cig-etl-evergage
+      Tags: 
+          - Exact
+          - CIG
+      IconUrl: https://proget.eu.exactsoftware.com/endpoints/images/content/FILE-BATCH.png
+      #Feed: https://proget.eu.exactsoftware.com/nuget/cig-chocolatey

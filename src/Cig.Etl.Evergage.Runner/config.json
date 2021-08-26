@@ -1,0 +1,53 @@
+{
+  "Jobs": [
+    {
+      "Name": "CancellationSurvey",
+      "SegmentId": "FullCancellationReason Submitted",
+      "DestinationConnectionString": "Data Source=.;Initial Catalog=CustomerIntelligence;Integrated Security=True",
+      "DestinationTable": "raw.Evergage_CancellationSurvey",
+      "ConfigurationTable": "config.Evergage_DataExportLog",
+      "BatchSize": 300
+    },
+    {
+      "Name": "ConsultancySurvey",
+      "DestinationConnectionString": "Data Source=.;Initial Catalog=CustomerIntelligence;Integrated Security=True",
+      "DestinationTable": "raw.Evergage_ConsultancySurvey",
+      "ConfigurationTable": "config.Evergage_DataExportLog"
+    },
+    {
+      "Name": "RelationshipSurvey",
+      "DestinationConnectionString": "Data Source=.;Initial Catalog=CustomerIntelligence;Integrated Security=True",
+      "DestinationTable": "raw.Evergage_RelationshipSurvey",
+      "ConfigurationTable": "config.Evergage_DataExportLog",
+      "EnglishSurveyId": "8nSSK",
+      "DutchSurveyId": "JYAC7"
+    },
+    {
+      "Name": "NewRelationshipSurvey",
+      "DestinationConnectionString": "Data Source=.;Initial Catalog=CustomerIntelligence;Integrated Security=True",
+      "DestinationTable": "raw.Evergage_New_RelationshipSurvey",
+      "ConfigurationTable": "config.Evergage_DataExportLog",
+      "EnglishSurveyId": "8nSSK",
+      "DutchSurveyId": "EbUcd",
+      "FlemishSurveyID": "w2UD8"
+    },
+    {
+      "Name": "AllSurveys",
+      "DestinationConnectionString": "Data Source=.;Initial Catalog=CustomerIntelligence;Integrated Security=True",
+      "DestinationTable": "raw.Evergage_AllSurveys",
+      "ConfigurationTable": "config.Evergage_DataExportLog",
+      "SourceFolder": "C:\\EvergageData"
+    }
+  ],
+  "Evergage": {
+	"ApiKey": "apikey",
+	"BaseAddress": "https://exactsoftware.evergage.com"
+  },
+  "AWS": {
+	"AwsAccessKeyId": "xxxxxxxxxxxxxxxxxx",
+	"AwsSecretAccessKey": "xxxxxxxxxxxxxx",
+	"S3Prefix": "Evergage",
+	"AwsKinesisStreamName": "cig-stream",
+	"IsStreamingEnabled": false
+  }
+}
